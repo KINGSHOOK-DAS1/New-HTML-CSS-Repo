@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>PORTFOLIO</title>
 </head>
 <body>
     <header>
-        <div class="nav">
-            <nav>
-                <div><a href="#Home">Home</a></div>
-                <div><a href="#About">About</a></div>
-                <div><a href="#Education">Education</a></div>
-                <div><a href="#Skills">Skills</a></div>
-                <div><a href="#Location">Location</a></div>
-                <div><a href="#contact">Contact</a></div>
-            </nav>
+        <div class="top">
+            <div class="nav">
+                <nav>
+                    <div><a href="#Home">Home</a></div>
+                    <div><a href="#About">About</a></div>
+                    <div><a href="#Education">Education</a></div>
+                    <div><a href="#Skills">Skills</a></div>
+                    <div><a href="#Location">Location</a></div>
+                    <div><a href="#contact">Contact</a></div>
+                </nav>
+            </div>
+            <div class="Searchbar">
+                <form>
+                    <input type="text" name="search" placeholder="Search here.......">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
             <div class="toprightlogo">
                 
             </div>
         </div>
-    </header>
+    </header><br><br><br>
 
 <main>
     <section id="Home">
@@ -46,7 +55,7 @@
 
         </div><br><hr><br>
 
-        <div class="Education">
+        <div id="Education">
             <h2>EDUCATION</h2>
             <ol type="A">
                 <li>Higher & Senior Secondary Education
@@ -65,7 +74,7 @@
             </ol>
         </div><br><hr><br>
 
-        <div class="Skills">
+        <div id="Skills">
             <h2>SKILLS</h2>
             <ol type="I">
                 <li>HTML</li>
@@ -78,21 +87,44 @@
             </ol>
         </div><br><hr><br>
 
-        <div class="Location">
+        <div id="Location">
             <h3>LOCATION</h3>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1884729009853!2d77.29892687543195!3d28.62411288446305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4b10d421d49%3A0x71e4e0a96e7c7aa7!2s148A%2C%20West%20Vinod%20Nagar%2C%20Block%20D%2C%20Mandawali%2C%20New%20Delhi%2C%20Delhi%2C%20110092!5e0!3m2!1sen!2sin!4v1751142252533!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>"
-        </div>
+        </div><br><hr><br>
 
-        <div class="contact">
+        <div id="contact">
+            <h2>CONTACTS</h2>
             <div class="mail">
                 <a href="mailto:kingshookdas2@gmail.com">Send Mail for any Query</a>
-            </div>
+            </div><br>
             <div class="phone">
                 <a href="tel:+918287305323">Call us for any Support</a>
             </div>
         </div><br><hr><br>
     </section>
 </main>
+
+<footer>
+    <div class="footerinfo">
+        <div class="Topmenu">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Location">Location</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footercontacts">
+            <a href="mailto:kingshookdas2@gmail.com">Send Mail for any Query</a><br>
+            <a href="tel:+918287305323">Call us for any Support</a>
+        </div>
+    </div><br>
+    <div class="footermarquee">
+        <marquee>Thanks For visting :)</marquee>
+    </div>
+</footer>
 
 </body>
 </html>
