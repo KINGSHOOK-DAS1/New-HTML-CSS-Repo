@@ -3,41 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>PORTFOLIO</title>
 </head>
 <body>
+    <div class="background"></div>
     <header>
-        <div class="top">
-            <div class="nav">
-                <nav>
-                    <div><a href="#Home">Home</a></div>
-                    <div><a href="#About">About</a></div>
-                    <div><a href="#Education">Education</a></div>
-                    <div><a href="#Skills">Skills</a></div>
-                    <div><a href="#Location">Location</a></div>
-                    <div><a href="#contact">Contact</a></div>
-                </nav>
-            </div>
-            <div class="Searchbar">
-                <form>
-                    <input type="text" name="search" placeholder="Search here.......">
-                    <button type="submit">Search</button>
-                </form>
-            </div>
-            <div class="toprightlogo">
-                
-            </div>
-        </div>
+        
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Location">Location</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    
+        
+        <form class="searchbar">
+            <input type="text" placeholder="Search here.......">
+            <button type="submit" class="btn"><i class='bx bx-search-alt'></i></button>
+        </form>
+        
     </header><br><br><br>
 
-<main>
-    <section id="Home">
-        <div id="About">
+<main class="home">
+    
+        <div id="About" class="about" >
 
-            <div class="authorPicture">
-                <img src="mypicnew.jpg" alt="authorPicture">
-            </div>
 
             <div class="authorInfo">
                 <h2>
@@ -55,7 +49,7 @@
 
         </div><br><hr><br>
 
-        <div id="Education">
+        <div id="Education" class="education" >
             <h2>EDUCATION</h2>
             <ol type="A">
                 <li>Higher & Senior Secondary Education
@@ -74,7 +68,7 @@
             </ol>
         </div><br><hr><br>
 
-        <div id="Skills">
+        <div id="Skills" class="skills" >
             <h2>SKILLS</h2>
             <ol type="I">
                 <li>HTML</li>
@@ -87,43 +81,37 @@
             </ol>
         </div><br><hr><br>
 
-        <div id="Location">
-            <h3>LOCATION</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1884729009853!2d77.29892687543195!3d28.62411288446305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4b10d421d49%3A0x71e4e0a96e7c7aa7!2s148A%2C%20West%20Vinod%20Nagar%2C%20Block%20D%2C%20Mandawali%2C%20New%20Delhi%2C%20Delhi%2C%20110092!5e0!3m2!1sen!2sin!4v1751142252533!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>"
+        <div id="Location" class="location" >
+            <h2>LOCATION</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.1884729009853!2d77.29892687543195!3d28.62411288446305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4b10d421d49%3A0x71e4e0a96e7c7aa7!2s148A%2C%20West%20Vinod%20Nagar%2C%20Block%20D%2C%20Mandawali%2C%20New%20Delhi%2C%20Delhi%2C%20110092!5e0!3m2!1sen!2sin!4v1751142252533!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>"
         </div><br><hr><br>
 
-        <div id="contact">
+        <div id="contact" class="contact" >
             <h2>CONTACTS</h2>
+            <p>For CustomerSupport You can connet to us through Ph.NO:- or E-mail</p>
             <div class="mail">
-                <a href="mailto:kingshookdas2@gmail.com">Send Mail for any Query</a>
-            </div><br>
+                <a href="mailto:kingshookdas2@gmail.com">kingshookdas2@gmail.com</a>
+            </div><br><hr>
             <div class="phone">
-                <a href="tel:+918287305323">Call us for any Support</a>
+                <a href="tel:+918287305323">+918287305323</a>
             </div>
         </div><br><hr><br>
-    </section>
+    
 </main>
 
 <footer>
-    <div class="footerinfo">
-        <div class="Topmenu">
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Location">Location</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footercontacts">
-            <a href="mailto:kingshookdas2@gmail.com">Send Mail for any Query</a><br>
-            <a href="tel:+918287305323">Call us for any Support</a>
-        </div>
-    </div><br>
-    <div class="footermarquee">
-        <marquee>Thanks For visting :)</marquee>
-    </div>
+        
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Education">Education</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Location">Location</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <!-- <marquee>Thanks For visting :)</marquee> -->
+
 </footer>
 
 </body>
